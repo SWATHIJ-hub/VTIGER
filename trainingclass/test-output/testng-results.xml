@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28843" started-at="2020-01-28T17:17:13Z" finished-at="2020-01-28T17:17:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28843" started-at="2020-01-28T17:17:13Z" finished-at="2020-01-28T17:17:42Z">
+      <class name="trainingclass.GmailFace">
+        <test-method status="PASS" signature="selectMsgText()[pri:0, instance:trainingclass.GmailFace@1810399e]" name="selectMsgText" duration-ms="28808" started-at="2020-01-28T22:47:13Z" finished-at="2020-01-28T22:47:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMsgText -->
+      </class> <!-- trainingclass.GmailFace -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

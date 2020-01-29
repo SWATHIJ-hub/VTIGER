@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.vtiger.scripts.TestOrganization">
+        <methods>
+          <include name="testCreateOrg1"/>
+          <include name="conficAm"/>
+          <include name="testCreateOrg3"/>
+          <include name="testCreateOrg2"/>
+          <include name="configBc"/>
+          <include name="congigBm"/>
+        </methods>
+      </class> <!-- com.vtiger.scripts.TestOrganization -->
+      <class name="com.vtiger.scripts.TestCreateCampagin">
+        <methods>
+          <include name="createCampaginTest2"/>
+          <include name="createCampaginTest"/>
+          <include name="createCampaignTest1"/>
+        </methods>
+      </class> <!-- com.vtiger.scripts.TestCreateCampagin -->
+      <class name="com.vtiger.scripts.TestCreateProduct">
+        <methods>
+          <include name="createProductTest"/>
+          <include name="CreateProductTest1"/>
+          <include name="CreateProductTest2"/>
+        </methods>
+      </class> <!-- com.vtiger.scripts.TestCreateProduct -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

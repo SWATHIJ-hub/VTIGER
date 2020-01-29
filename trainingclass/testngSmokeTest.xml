@@ -1,0 +1,15 @@
+
+<suite name="Suite">
+<test name="Test">
+  <groups>
+    <run>
+    <invlude name="smoketest"/>
+    </run>
+      </groups>
+    <classes>
+      <class name="com.vtiger.scripts.TestOrganization"/>
+      <class name="com.vtiger.scripts.TestCreateProduct"/>
+      <class name="com.vtiger.scripts.TestCreateCampagin"/>
+    </classes>
+  </test> 
+</suite> 

@@ -1,0 +1,16 @@
+
+<suite name="Suite1" thread-count="3" parallel='tests'>
+ <test name="Test1">
+    <classes>
+      <class name="com.vtiger.scripts.TestOrganization"/>
+      <class name="com.vtiger.scripts.TestCreateProduct"/>
+
+    </classes>
+  </test> 
+  <test name="Test2">
+    <classes>
+     
+      <class name="com.vtiger.scripts.TestCreateCampagin"/>
+    </classes>
+  </test> 
+</suite> 

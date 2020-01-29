@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [Suite1]" parallel="tests">
+  <test name="Test1(failed)" parallel="tests">
+    <classes>
+      <class name="com.vtiger.scripts.TestCreateProduct">
+        <methods>
+          <include name="createProductTest"/>
+          <include name="CreateProductTest1"/>
+          <include name="CreateProductTest2"/>
+        </methods>
+      </class> <!-- com.vtiger.scripts.TestCreateProduct -->
+      <class name="com.vtiger.scripts.TestOrganization">
+        <methods>
+          <include name="testCreateOrg1"/>
+          <include name="conficAm"/>
+          <include name="testCreateOrg3"/>
+          <include name="testCreateOrg2"/>
+          <include name="configBc"/>
+          <include name="congigBm"/>
+        </methods>
+      </class> <!-- com.vtiger.scripts.TestOrganization -->
+      <class name="com.vtiger.scripts.TestCreateCampagin">
+        <methods>
+          <include name="confinac"/>
+          <include name="conficAm"/>
+          <include name="configBc"/>
+          <include name="congigBm"/>
+        </methods>
+      </class> <!-- com.vtiger.scripts.TestCreateCampagin -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test name="Test2(failed)" parallel="tests">
+    <classes>
+      <class name="com.vtiger.scripts.TestOrganization">
+        <methods>
+          <include name="conficAm"/>
+          <include name="configBc"/>
+          <include name="congigBm"/>
+        </methods>
+      </class> <!-- com.vtiger.scripts.TestOrganization -->
+      <class name="com.vtiger.scripts.TestCreateCampagin">
+        <methods>
+          <include name="confinac"/>
+          <include name="conficAm"/>
+          <include name="createCampaginTest"/>
+          <include name="createCampaignTest1"/>
+          <include name="configBc"/>
+          <include name="congigBm"/>
+        </methods>
+      </class> <!-- com.vtiger.scripts.TestCreateCampagin -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
