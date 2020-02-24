@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46984" started-at="2020-02-24T05:21:12Z" finished-at="2020-02-24T05:21:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="46984" started-at="2020-02-24T05:21:12Z" finished-at="2020-02-24T05:21:59Z">
+      <class name="jenkinstoexecutets.TestScripts1">
+        <test-method status="PASS" signature="excuteTest()[pri:0, instance:jenkinstoexecutets.TestScripts1@7c16905e]" name="excuteTest" duration-ms="46850" started-at="2020-02-24T10:51:13Z" finished-at="2020-02-24T10:51:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excuteTest -->
+      </class> <!-- jenkinstoexecutets.TestScripts1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
